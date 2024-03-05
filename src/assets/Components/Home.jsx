@@ -1,4 +1,5 @@
 import Header from "./Secciones/Header"
+import Menus from "./Secciones/Menus"
 import Section from "./Secciones/Section"
 
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Header/>
         <Section/>
+        <Menus/>
     </div>
   )
 }

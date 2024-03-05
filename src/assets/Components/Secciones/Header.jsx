@@ -3,7 +3,7 @@ import logo from '../../images/logo.svg'
 
 const Header = () => {
   return (
-    <div className='relative w-screen bg-Cod-Gray m-auto flex items-center justify-center lg:justify-start md:pb-20 '>
+    <div className='relative  bg-Cod-Gray m-auto flex items-center justify-center lg:justify-start md:pb-20 xl:pb-0'>
         <div className='max-w-[1440px] m-auto  w-full h-[748px] lg:h-[840px] bg-mobile md:bg-tablet xl:bg-desktop bg-cover  flex flex-col gap-6 justify-center items-center text-center xl:items-start xl:text-left '>
             
         <img src={logo} alt="logo"  className=' w-20  mt-[25%] sm:mt-72 md:mt-[350px] lg:mt-[450px] xl:mt-[-50px] xl:ml-20 xl:w-28  '/>
