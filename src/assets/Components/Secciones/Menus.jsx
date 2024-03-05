@@ -16,10 +16,10 @@ const Menus = () => {
   return (
     <div className="bg-Cod-Gray m-auto ">
         <div className='flex flex-col justify-center items-center text-center max-w-[1440px] p-6 mb-12 pb-12 :flex-row'>
-            <div className='flex flex-col items-center justify-center  gap-4 my-12'>
+            <div className='flex flex-col items-center justify-center  gap-4 my-2'>
                 <img src={divide} alt="divisor" />
                 <h2 className='text-white text-2xl w-[240px] font-semibold'> A few highlights from our menu</h2>
-                <p className='text-white font-light text-base mx-1 w-[445px] md:text-lg md:w-[370px]'>We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. Our menu is revamped every season.</p>
+                <p className='text-white font-light text-base mx-1  md:text-lg md:w-[370px]'>We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. Our menu is revamped every season.</p>
             </div>
 
             <div className='flex flex-col justify-center items-center gap-5 max-w-[1440px] w-full md:w-[640px]'>
