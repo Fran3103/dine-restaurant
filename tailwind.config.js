@@ -11,7 +11,7 @@ export default {
 
             'Mirage': '#17192b',
             'Ebony-Clay': '#242b37',
-            'Shuttle Gray': '#5c6779 ',
+            'ShuttleGray': '#5c6779 ',
             'white': '#ffffff'
 
         },
