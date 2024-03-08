@@ -41,7 +41,7 @@ const Menus = () => {
                 <hr className='hidden md:flex bg-white w-full h-[2px] '/>
 
                 <div className='flex flex-col justify-center items-center  md:flex-row  relative md:justify-start w-full gap-3 md:gap-20'>
-                    <hr className='  bg-white w-full h-[2px] absolute top-0 md:hidden'/>
+                    <hr className='  bg-white w-full h-[2px] absolute top-0 hidden'/>
                     <img src={filetMobile} alt="beef" className=' md:hidden '/>
                     <div className='relative'>
                         <img src={filetTablet} alt="beef" className='hidden md:flex xl:hidden relative z-10 '/>
@@ -52,11 +52,11 @@ const Menus = () => {
                         <h3 className='text-white text-lg font-medium'>Rosemary Filet Mignon</h3>
                         <p className='text-white font-light mx-10 leading-5  md:mx-0 md:pr-32'>Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
                     </div>
-              
+                    <hr className='w-full h-[2px] bg-ShuttleGray md:hidden'/>
                 </div>
                 <hr className='hidden md:flex bg-white w-full h-[2px] '/>
                 <div className='flex flex-col justify-center items-center relative  md:flex-row   md:justify-start w-full gap-3 md:gap-20'>
-                    <hr className='  bg-white w-full h-[1px] absolute top-0 md:hidden'/>
+                    <hr className='  bg-white w-full h-[1px] absolute top-0 hidden'/>
                     <img src={mousseMobile} alt="chocolate" className=' md:hidden ' />
                     <div className='relative '>
                         <img src={mousseTablet} alt="chocolate" className='hidden md:flex xl:hidden relative z-10 '/>
