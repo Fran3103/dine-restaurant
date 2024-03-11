@@ -1,3 +1,4 @@
+import Events from "./Secciones/Events"
 import Header from "./Secciones/Header"
 import Menus from "./Secciones/Menus"
 import Section from "./Secciones/Section"
@@ -9,6 +10,7 @@ const Home = () => {
         <Header/>
         <Section/>
         <Menus/>
+        <Events/>
     </div>
   )
 }
