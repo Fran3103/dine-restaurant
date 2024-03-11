@@ -79,7 +79,7 @@ const Events = () => {
 
 
   return (
-    <div className='relative -mt-12  m-auto  w-full mb-12 xl:ml-20'>
+    <div className='relative -mt-12  m-auto   mb-12 xl:ml-20'>
 
         <div className='max-w-[1440px] w-full m-auto mt-12 flex flex-col justify-center items-center  xl:flex-row xl:justify-start   gap-12 p-6 xl:gap-32 '>
             <div className='relative mt-20 '>

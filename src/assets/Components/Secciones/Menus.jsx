@@ -14,7 +14,7 @@ import mousseTablet from '../../images/homepage/chocolate-desktop-tablet.webp'
 import mousseDesktop from '../../images/homepage/chocolate-desktop-tablet@2x.webp'
 const Menus = () => {
   return (
-    <div className="bg-Cod-Gray m-auto xl:mt-[-130px] relative ">
+    <div className="bg-Cod-Gray m-auto xl:mt-[-100px]  relative ">
         <div className='flex flex-col justify-center items-center text-center max-w-[1440px] p-6 mb-12 pb-12  gap-12  xl:flex-row w-full m-auto ' >
             <div className='flex flex-col items-center justify-center  gap-4 my-2  xl:items-start xl:text-start xl:gap-12 xl:mb-20 xl:ml-20 '>
                 <img src={divide} alt="divisor" />
