@@ -17,7 +17,9 @@ const Header = () => {
                
                 
                 
-                    <button type='submit' className='border border-white py-4 mt-2 md:mt-7 bg-Cod-Gray md:mb-12 w-60 m-auto text-white hover:text-Cod-Gray hover:bg-white tracking-[4px] lg:text-xl  xl:py-5  cursor-pointer uppercase mb-12'><Link to='/reservation'>BOOK A TABLE</Link></button>
+                    <Link to='/reservation'>
+                        <button type='submit' className='border border-white py-4 mt-2 md:mt-7 bg-Cod-Gray md:mb-12 w-60 m-auto text-white hover:text-Cod-Gray hover:bg-white tracking-[4px] lg:text-xl  xl:py-5  cursor-pointer uppercase mb-12'><Link to='/reservation'>BOOK A TABLE</Link></button>
+                    </Link>
             </div>
             
         </div>
