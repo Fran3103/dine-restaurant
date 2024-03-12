@@ -13,6 +13,7 @@ import socialMobile from '../../images/homepage/social-events-mobile.webp'
 import fondo from '../../images/patterns/pattern-curve-top-right.svg'
 import lines from '../../images/patterns/pattern-lines.svg'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const familia = {
         'titulo':'Family Gathering',
@@ -109,7 +110,9 @@ const Events = () => {
             <div className='text-center flex flex-col gap-5 -mt-4 justify-center items-center m-auto xl:mt-40 xl:items-start xl:mx-0 relative'>
                 <h2 className='text-3xl font-bold xl:text-5xl '>{select.titulo}</h2>
                 <p className='font-semibold md:w-96 text-center m-auto xl:text-left xl:w-[500px] xl:text-xl '>{select.texto}</p>
-                <button className='border border-Cod-Gray bg-Cod-Gray  py-4 mt-2 md:mt-7 md:mb-12 w-60 m-auto text-white hover:text-Cod-Gray hover:bg-white  tracking-[4px]  lg:text-xl xl:ml-0  xl:py-5 cursor-pointer '>BOOK A TABLE</button>
+                <Link to='/reservation'>
+                    <button className='border border-Cod-Gray bg-Cod-Gray  py-4 mt-2 md:mt-7 md:mb-12 w-60 m-auto text-white hover:text-Cod-Gray hover:bg-white  tracking-[4px]  lg:text-xl xl:ml-0  xl:py-5 cursor-pointer '>BOOK A TABLE</button>
+                </Link>
 
                 <div className='hidden xl:flex flex-col gap-4 justify-center items-start'>
                     <div>
